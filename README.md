@@ -93,4 +93,5 @@ SyncClient*client = [[SyncClient alloc] initWithLocal:"xxxx"
 - boost
 - openssl
 - rapidjson
+- zlib
         
