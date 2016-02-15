@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface SyncClient : NSObject
-- (instancetype)initWithLocal:(NSString*)path;
+- (instancetype)initWithLocal:(NSString*)local forType:(NSString*)type withHost:(NSString*)host withRemote:(NSString*)remote;
 -(void) update;
 -(void) commit;
 -(void) delFile:(NSString*)name;
