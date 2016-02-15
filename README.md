@@ -88,4 +88,9 @@ SyncClient*client = [[SyncClient alloc] initWithLocal:"xxxx"
 //上传
 [client commit];
 ```
+### 依赖
+- curl
+- boost
+- openssl
+- rapidjson
         
